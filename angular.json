@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lic-doc:build:production"
+              "buildTarget": "lic-doc:build:production"
             },
             "development": {
-              "browserTarget": "lic-doc:build:development"
+              "buildTarget": "lic-doc:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lic-doc:build"
+            "buildTarget": "lic-doc:build"
           }
         },
         "test": {
