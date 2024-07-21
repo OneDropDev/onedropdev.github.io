@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap&family=Antonio&family=Aclonica');
+
+@mixin anton-font {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin antonio-font {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin aclonica-font {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

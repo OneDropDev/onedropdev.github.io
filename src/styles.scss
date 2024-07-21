@@ -1,4 +1,7 @@
 @import "./assets/scss/reset";
+@import "./assets/scss/fonts";
+@import "./assets/scss/colors";
+@import "./assets/scss/mixin";
 
 html,
 body {
@@ -7,4 +10,26 @@ body {
 body {
 	margin: 0;
 	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.main-title{
+	display: flex;
+	align-items: center;
+	padding: 5rem;
+	min-height: 250px;
+	background: radial-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.7)), url(./assets/img/main-title-bg.webp);
+	.title {
+		@include aclonica-font;
+		font-size: 5rem;
+		color: $color-title;
+	}
+	.sub-title{
+		@include antonio-font;
+		font-size: 2rem;
+		color: whitesmoke;
+	}
+}
+
+.top-menu {
+	@include ice-container;
 }
